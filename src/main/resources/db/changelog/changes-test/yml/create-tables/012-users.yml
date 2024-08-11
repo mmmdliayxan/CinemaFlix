@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Users for watching movies on site
+      author: Ayxan Memmedli
+      changes:
+        - sqlFile:
+            path: db/changelog/changes-test/sql/create-tables/012-users.sql

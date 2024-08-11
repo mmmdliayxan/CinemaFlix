@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create ReservationSeats for reservations
+      author: Ayxan Memmedli
+      changes:
+        - sqlFile:
+            path: db/changelog/changes-test/sql/create-tables/010-reservation_seats.sql

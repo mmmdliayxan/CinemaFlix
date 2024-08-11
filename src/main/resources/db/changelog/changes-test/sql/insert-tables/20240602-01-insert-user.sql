@@ -1,0 +1,1 @@
+insert into cinema_database.users(username, password)values('Admin','$2a$10$6lkufCphPBVmJGMdEVwgRe04Eh0nF7tb1i1QZQjflfCFlZmsEPaJ.');

@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Authoririties for specify Users
+      author: Ayxan Memmedli
+      changes:
+        - sqlFile:
+            path: db/changelog/changes-test/sql/create-tables/001-authorities.sql

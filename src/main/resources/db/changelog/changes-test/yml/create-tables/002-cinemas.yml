@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Cinemas table for project
+      author: Ayxan Memmedli
+      changes:
+        - sqlFile:
+            path: db/changelog/changes-test/sql/create-tables/002-cinemas.sql

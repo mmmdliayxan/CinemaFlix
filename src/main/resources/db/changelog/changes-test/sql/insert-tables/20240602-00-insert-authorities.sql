@@ -1,0 +1,1 @@
+INSERT INTO authorities (type) VALUES ('ADMIN'),('USER');

@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Movies for cinemas
+      author: Ayxan Memmedli
+      changes:
+        - sqlFile:
+            path: db/changelog/changes-test/sql/create-tables/007-movies.sql

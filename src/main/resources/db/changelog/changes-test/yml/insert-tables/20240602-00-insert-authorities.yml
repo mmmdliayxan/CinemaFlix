@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - changeSet:
+      id: 12
+      author: Ayxan Memmedli
+      changes:
+        - insert:
+            tableName: authorities
+            columns:
+              - column:
+                  name: type
+                  value: 'ADMIN'
+        - insert:
+            tableName: authorities
+            columns:
+              - column:
+                  name: type
+                  value: 'USER'
+

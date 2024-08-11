@@ -1,0 +1,54 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/001-authorities.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/002-cinemas.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/003-categories.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/004-customers.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/005-halls.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/006-card_details.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/007-movies.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/008-schedules.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/009-reservations.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/010-reservation_seats.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/011-payments.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/012-users.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/013-user_authorities.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/014-forgot_password.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/create-tables/015-payment_movies.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/insert-tables/20240602-00-insert-authorities.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/insert-tables/20240602-01-insert-user.yml
+
+  - include:
+      file: db/changelog/changes-test/yml/insert-tables/20240602-02-insert-user-authorities.yml

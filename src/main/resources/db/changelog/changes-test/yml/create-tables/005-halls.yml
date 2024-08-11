@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Halls for cinemas
+      author: Ayxan Memmedli
+      changes:
+        - sqlFile:
+            path: db/changelog/changes-test/sql/create-tables/005-halls.sql

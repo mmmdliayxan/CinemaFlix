@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Categories table for movies
+      author: Ayxan Memmedli
+      changes:
+        - sqlFile:
+            path: db/changelog/changes-test/sql/create-tables/003-categories.sql

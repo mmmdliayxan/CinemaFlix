@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Schedules for movies
+      author: Ayxan Memmedli
+      changes:
+        - sqlFile:
+            path: db/changelog/changes-test/sql/create-tables/008-schedules.sql
